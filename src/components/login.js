@@ -1,4 +1,3 @@
-import React, { Component } from 'react'
 import {useDispatch} from 'react-redux';
 import {login, logout} from '../features/user'
 export default function Login() {
