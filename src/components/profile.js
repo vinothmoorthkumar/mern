@@ -3,6 +3,9 @@ import {useSelector} from 'react-redux'
 export default function Profile() {
 
   const user=useSelector(state=>state.user.value);
+  if(!user.name){
+    return
+  }
   return (
     <div>
         <h1>Profile Info</h1>
