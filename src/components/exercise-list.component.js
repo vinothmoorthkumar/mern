@@ -1,6 +1,7 @@
 // import React, { Component } from 'react';
 import Login from "./login"
 import Profile from "./profile"
+import ColorSelector from "../ColorSelector";
 
 // export default class ExerciseList extends Component {
 //   render() {
@@ -20,6 +21,7 @@ export default function ExerciseList() {
     <div>
         <Login />
         <Profile />
+        <ColorSelector />
     </div>
   )
 }
